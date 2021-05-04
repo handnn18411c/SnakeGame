@@ -1,7 +1,8 @@
 import pygame
+import time
 
 
-class Snake():
+class SnakeHead():
     def __init__(self, x, y, width, height, vel):
         self.x = x
         self.y = y

@@ -17,3 +17,8 @@ class Food():
     def getRect(self):
         rect = pygame.Rect(self.x, self.y, self.width, self.height)
         return rect
+
+    def newPosition(self):
+        self.x = random.randint(0, 500)
+        self.y = random.randint(0, 600)
+        pygame.display.update()
